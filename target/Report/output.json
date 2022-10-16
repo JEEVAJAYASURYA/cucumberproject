@@ -1,0 +1,177 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2625300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User should launch the chrome and load the url and maximize the window",
+            "match": {
+              "location": "StepDefinition.user_should_launch_the_chrome_and_load_the_url_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6678133800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should click the Sign in link",
+            "match": {
+              "location": "StepDefinition.user_should_click_the_Sign_in_link()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-16T10:53:48.266Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3868500200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExe1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 10045598100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExe2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 195912400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExe3()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Validate the login functionality with forgot password",
+        "description": "",
+        "id": "validate-the--functionality-of-hotels.com;validate-the-login-functionality-with-forgot-password",
+        "after": [
+          {
+            "result": {
+              "duration": 2946987700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterExe1(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 394000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterExe2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 347491400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterExe3()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3998966300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User should click the forgot password link",
+            "match": {
+              "location": "StepDefinition.user_should_click_the_forgot_password_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 294055700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User should enter valid email address",
+            "match": {
+              "location": "StepDefinition.userShouldEnterValidEmailAddress(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "surya@123",
+                  "priyamoorthy1410@gmail.com",
+                  "jai@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5203496500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User should click send request link",
+            "match": {
+              "location": "StepDefinition.user_should_click_send_request_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21181700,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User should navigate to Reset password page",
+            "match": {
+              "location": "StepDefinition.user_should_navigate_to_Reset_password_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@surya"
+          }
+        ]
+      }
+    ],
+    "name": "Validate the  functionality of hotels.com",
+    "description": "",
+    "id": "validate-the--functionality-of-hotels.com",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/hotels.feature",
+    "tags": []
+  }
+]

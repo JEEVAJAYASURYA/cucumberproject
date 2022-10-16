@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="33.668873">
+<testcase classname="Validate the  functionality of hotels.com" name="Validate the login functionality with forgot password" time="33.668873">
+<system-out><![CDATA[Given User should launch the chrome and load the url and maximize the window.passed
+When User should click the Sign in link.....................................passed
+And User should click the forgot password link..............................passed
+And User should enter valid email address...................................passed
+And User should click send request link.....................................passed
+Then User should navigate to Reset password page............................passed
+]]></system-out>
+</testcase>
+</testsuite>
